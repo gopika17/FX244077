@@ -1,0 +1,324 @@
+https://github.com/neominds/IWE216532-TLSBugFix.git
+
+
+
+gopisand@SreeParvathi MINGW64 ~
+$ pwd
+/c/Users/gopisand
+
+gopisand@SreeParvathi MINGW64 ~
+$ cd C:/NeoMind/Git_Projects
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects
+$ pwd
+/c/NeoMind/Git_Projects
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects
+$ gitclone https://github.com/neominds/IWE216532-TLSBugFix.git
+bash: gitclone: command not found
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects
+$ git clone https://github.com/neominds/IWE216532-TLSBugFix.git
+Cloning into 'IWE216532-TLSBugFix'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects
+$ ls
+commands.odt  'IWE216532-TLS bug-fixes'/  IWE216532-TLSBugFix/
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects
+$ cd IWE216532-TLSBugFix/
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ LS
+README.md
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ ls
+README.md
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ cp C:/NeoMind/Git_Projects/IWE216532-TLS bug-fixes_Templete/* .
+cp: cannot stat 'C:/NeoMind/Git_Projects/IWE216532-TLS': No such file or directory
+cp: cannot stat 'bug-fixes_Templete/*': No such file or directory
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ cp -R C:/NeoMind/Git_Projects/IWE216532-TLS bug-fixes_Templete/* .
+cp: cannot stat 'C:/NeoMind/Git_Projects/IWE216532-TLS': No such file or directory
+cp: cannot stat 'bug-fixes_Templete/*': No such file or directory
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ ls
+README.md
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ cp ../
+commands.odt                      IWE216532-TLSBugFix/
+IWE216532-TLS bug-fixes_Templete/
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ cp ../IWE216532-TLS
+IWE216532-TLS bug-fixes_Templete/ IWE216532-TLSBugFix/
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ cp ../IWE216532-TLSBugFix/
+.git/      README.md
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ cp ../IWE216532-TLS
+IWE216532-TLS_bug_fixes_Templete/ IWE216532-TLSBugFix/
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ cp ../IWE216532-TLS
+IWE216532-TLS_bug_fixes_Templete/ IWE216532-TLSBugFix/
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ cp ../IWE216532-TLS_bug_fixes_Templete/
+Documents/ src/
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ cp -R ../IWE216532-TLS_bug_fixes_Templete/* .
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ ls
+Documents/  README.md  src/
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Documents/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git add .
+warning: LF will be replaced by CRLF in src/target/config/comps/src/usrCertsInit.c.
+The file will have its original line endings in your working directory.
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ ls
+Documents/  README.md  src/
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git add .
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ lls
+bash: lls: command not found
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ ls
+Documents/  README.md  src/
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Documents/Evidence/capture_03_02.rar
+        new file:   Documents/Evidence/evidence_03_02.rar
+        new file:   Documents/Evidence/logs_03_02.rar
+        new file:   Documents/Test_Cases_03_02.xls
+        new file:   Documents/Test_Summary_Report_06_2.xls
+        new file:   src/Testcode/changes_to_bspdir_config_h.txt.txt
+        new file:   src/Testcode/wrSSLTest.c
+        new file:   src/Testcode/wrkkssltest.c
+        new file:   src/target/config/comps/src/usrCertsInit.c
+        new file:   src/target/src/security/compatibility/rsa/rsa_cci.c
+        new file:   src/target/src/security/compatibility/vxworks/sslMemoryRoutines.c
+
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git commit -m "Added Documents and Src folder"
+[master 8d67ba6] Added Documents and Src folder
+ 11 files changed, 3160 insertions(+)
+ create mode 100644 Documents/Evidence/capture_03_02.rar
+ create mode 100644 Documents/Evidence/evidence_03_02.rar
+ create mode 100644 Documents/Evidence/logs_03_02.rar
+ create mode 100644 Documents/Test_Cases_03_02.xls
+ create mode 100644 Documents/Test_Summary_Report_06_2.xls
+ create mode 100644 src/Testcode/changes_to_bspdir_config_h.txt.txt
+ create mode 100644 src/Testcode/wrSSLTest.c
+ create mode 100644 src/Testcode/wrkkssltest.c
+ create mode 100644 src/target/config/comps/src/usrCertsInit.c
+ create mode 100644 src/target/src/security/compatibility/rsa/rsa_cci.c
+ create mode 100644 src/target/src/security/compatibility/vxworks/sslMemoryRoutines.c
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git push orgin master
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git push origin master
+remote: Permission to neominds/IWE216532-TLSBugFix.git denied to gopika17.
+fatal: unable to access 'https://github.com/neominds/IWE216532-TLSBugFix.git/': The requested URL returned error: 403
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git config -- global user.email "jayesh.babu@gmail.com"
+error: key does not contain a section: global
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git config --global user.email "jayesh.babu@gmail.com"
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git push origin master
+remote: Permission to neominds/IWE216532-TLSBugFix.git denied to gopika17.
+fatal: unable to access 'https://github.com/neominds/IWE216532-TLSBugFix.git/': The requested URL returned error: 403
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+credential.helper=manager
+user.email=jayesh.babu@gmail.com
+user.name=gopika
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/neominds/IWE216532-TLSBugFix.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git config --global user.name "bjayesh"
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git push origin master
+remote: Permission to neominds/IWE216532-TLSBugFix.git denied to gopika17.
+fatal: unable to access 'https://github.com/neominds/IWE216532-TLSBugFix.git/': The requested URL returned error: 403
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+credential.helper=manager
+user.email=jayesh.babu@gmail.com
+user.name=bjayesh
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/neominds/IWE216532-TLSBugFix.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git push origin master
+remote: Permission to neominds/IWE216532-TLSBugFix.git denied to gopika17.
+fatal: unable to access 'https://github.com/neominds/IWE216532-TLSBugFix.git/': The requested URL returned error: 403
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ ls
+Documents/  README.md  src/
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+credential.helper=manager
+user.email=jayesh.babu@gmail.com
+user.name=bjayesh
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/neominds/IWE216532-TLSBugFix.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git config --global user.name "gopika17"
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git config --global user.email "gopika17@neominds.in"
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git push origin master
+remote: Permission to neominds/IWE216532-TLSBugFix.git denied to gopika17.
+fatal: unable to access 'https://github.com/neominds/IWE216532-TLSBugFix.git/': The requested URL returned error: 403
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git push origin master
+Counting objects: 26, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (26/26), 1.25 MiB | 71.00 KiB/s, done.
+Total 26 (delta 0), reused 0 (delta 0)
+To https://github.com/neominds/IWE216532-TLSBugFix.git
+   ee605ff..8d67ba6  master -> master
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$ git status
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$
+
+gopisand@SreeParvathi MINGW64 /c/NeoMind/Git_Projects/IWE216532-TLSBugFix (master)
+$

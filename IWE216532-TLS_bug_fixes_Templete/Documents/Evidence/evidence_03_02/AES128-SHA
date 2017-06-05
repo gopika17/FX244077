@@ -1,0 +1,110 @@
+Using default temp DH parameters
+Using default temp ECDH parameters
+ACCEPT
+<<< TLS 1.0 Handshake [length 003a], ClientHello
+    01 00 00 36 03 01 8d 95 c4 aa ba 13 c9 60 eb ba
+    71 f3 f4 f1 a8 70 8b ca aa b0 e7 31 e2 f6 48 c9
+    ca e8 31 f6 41 06 00 00 04 00 2f 00 ff 01 00 00
+    09 00 23 00 00 00 0f 00 01 01
+>>> TLS 1.0 Handshake [length 003a], ServerHello
+    02 00 00 36 03 01 aa fa 27 88 b2 60 21 14 d1 eb
+    8d a1 4d 90 10 c5 74 a2 eb 4f 43 1e 90 f5 22 1e
+    88 e5 0f 8a 2e 38 00 00 2f 00 00 0e ff 01 00 01
+    00 00 23 00 00 00 0f 00 01 01
+>>> TLS 1.0 Handshake [length 0361], Certificate
+    0b 00 03 5d 00 03 5a 00 03 57 30 82 03 53 30 82
+    02 3b a0 03 02 01 02 02 09 00 8e 06 9a 60 2d 9c
+    8c 3c 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05
+    00 30 40 31 0b 30 09 06 03 55 04 06 13 02 49 4e
+    31 13 30 11 06 03 55 04 08 0c 0a 53 6f 6d 65 2d
+    53 74 61 74 65 31 0b 30 09 06 03 55 04 0a 0c 02
+    6e 6d 31 0f 30 0d 06 03 55 04 03 0c 06 6a 61 79
+    65 73 68 30 1e 17 0d 31 36 30 36 32 36 31 31 32
+    38 34 31 5a 17 0d 31 37 30 36 32 36 31 31 32 38
+    34 31 5a 30 40 31 0b 30 09 06 03 55 04 06 13 02
+    49 4e 31 13 30 11 06 03 55 04 08 0c 0a 53 6f 6d
+    65 2d 53 74 61 74 65 31 0b 30 09 06 03 55 04 0a
+    0c 02 6e 6d 31 0f 30 0d 06 03 55 04 03 0c 06 6a
+    61 79 65 73 68 30 82 01 22 30 0d 06 09 2a 86 48
+    86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01
+    0a 02 82 01 01 00 c9 c5 ff 70 fa dc 0a 9b a9 12
+    06 3d e2 10 40 91 36 72 27 0e 1c ca 56 9e 99 66
+    63 bd 5e fb 4e d2 a3 26 10 e3 e0 07 56 d5 51 93
+    35 a0 14 a4 41 0c 65 8a 4a 54 90 68 59 59 e0 3f
+    72 d1 82 22 ee 7e f0 62 8e 71 99 a2 eb 49 36 b3
+    01 fc 13 45 2f 05 42 4e a6 ae 22 42 5c e6 8a fe
+    61 80 34 da da 78 69 50 39 89 69 66 1b 20 21 68
+    65 3e 21 9d 0f 00 83 fc f0 ac af e3 25 12 1b d6
+    2b 24 10 ad 62 60 a8 9e c5 3e cc 55 f0 0d 05 1b
+    9f ae d1 42 2c be 86 74 f1 5d 99 b6 c4 08 4a 3d
+    6d d1 43 bb b5 44 b3 51 29 9e 70 ac 41 c0 51 57
+    e5 fd 2e d4 fd 60 af e0 64 d8 ee 11 be 7c d8 c8
+    4c d2 fd 90 b6 15 b8 73 c9 01 95 7c 6d 59 4f 07
+    f7 12 77 94 81 6a 74 ed 10 6c 8a 40 b3 4b 66 48
+    77 75 5e 25 8c a7 41 ea 92 33 92 10 a6 95 88 22
+    74 8d 40 46 d6 ca 75 2e e7 c4 45 93 9b 8a 5e 0f
+    82 cb 96 d0 83 a9 02 03 01 00 01 a3 50 30 4e 30
+    1d 06 03 55 1d 0e 04 16 04 14 bd a0 2e ae fb 4a
+    73 e8 fd 15 e6 04 be 27 b4 6d 6a 46 0c b2 30 1f
+    06 03 55 1d 23 04 18 30 16 80 14 bd a0 2e ae fb
+    4a 73 e8 fd 15 e6 04 be 27 b4 6d 6a 46 0c b2 30
+    0c 06 03 55 1d 13 04 05 30 03 01 01 ff 30 0d 06
+    09 2a 86 48 86 f7 0d 01 01 0b 05 00 03 82 01 01
+    00 04 5c 66 20 44 c8 88 8b ae f1 7f ba 20 82 d4
+    6c 71 7a 30 78 54 31 84 1b 11 ff 27 d6 42 20 9e
+    54 87 29 47 05 a0 19 5f 87 8c 34 da a2 19 ef 8a
+    d4 5d de 2f 04 e7 90 60 9f 37 32 65 17 bc 75 df
+    48 93 f4 29 8d fa 6d 9b 7c ab cd f8 26 64 fd 5f
+    a9 a4 aa f0 d5 1c 0b 82 0a f9 c8 ed 60 4f 44 c4
+    f7 13 1a 80 de 56 26 5f d5 76 97 88 be 88 49 1a
+    6e 13 74 c7 b3 b6 1e b7 1a 0d d3 aa ab b3 02 4f
+    92 cc 3c 45 7b 36 a8 b2 de 38 a3 55 3e d4 a4 5a
+    29 11 91 83 93 a5 e2 73 fd e3 62 05 a1 3b 65 34
+    41 c6 b7 50 aa 0b d7 d7 4b 7b ac 4a f3 b6 b1 83
+    51 fa 50 8d b1 9f ae e3 b5 79 46 08 fe 3c b4 ef
+    bc 26 47 54 d8 16 ac 10 cf ff 0c 00 c0 6e bd 2b
+    df 06 48 2a 61 08 b5 a4 14 83 61 27 64 a4 5e 85
+    32 19 d5 af 83 6f b5 29 cb bc 1d 62 90 55 a6 c3
+    5d 7c 3c 53 f0 34 ff 00 24 59 09 a3 ac 10 ab f5
+    ff
+>>> TLS 1.0 Handshake [length 0004], ServerHelloDone
+    0e 00 00 00
+<<< TLS 1.0 Handshake [length 0106], ClientKeyExchange
+    10 00 01 02 01 00 70 7e 31 4e ff b4 08 60 91 56
+    c5 f0 08 99 41 3c 9d 11 de 30 17 48 93 02 fe 5e
+    d6 ee f3 e8 2b 38 fb 1d 26 12 c9 a5 c7 b1 25 f9
+    b4 92 1c d8 2c 90 c0 20 77 55 d3 ed 92 43 a1 57
+    22 78 bc 94 e0 32 18 b6 b6 67 49 67 33 b9 19 b7
+    42 40 43 f5 69 5f 3d 91 ff 27 fc 9f e1 67 59 21
+    5e 5f 06 d9 2e da 84 bd 85 d2 5c f6 97 ca 25 44
+    c1 f9 fa 9d 6d e7 32 09 bc e5 ee e0 0a e2 8f ea
+    69 a7 85 9e 13 ae a2 2c bb a8 5b b4 15 e3 f2 9d
+    f8 da 48 3a d2 bb 9f f8 e8 f1 63 b9 39 bc 0c 4a
+    03 f1 86 2f d1 33 3a 8d 55 6c bf 37 6c fa 1d fa
+    2a 00 87 44 1b 8b 16 a5 58 96 c5 49 c4 b2 9f bf
+    9f a2 0c 8c 3c 53 46 d3 ae 30 e3 bd 71 25 e9 bc
+    c3 c1 c9 ac 4f 98 72 fa 3c a1 4c 85 e9 dd cb 1c
+    0f 0b 9f 90 fa 0c a1 fb 52 16 01 97 86 90 f5 d2
+    ea 06 73 89 84 4d b8 90 7b 52 18 fa 3e ed a6 39
+    50 0c 85 66 20 7c
+<<< TLS 1.0 ChangeCipherSpec [length 0001]
+    01
+<<< TLS 1.0 Handshake [length 0010], Finished
+    14 00 00 0c 37 86 87 73 ae f3 ab e1 03 56 3a 00
+>>> TLS 1.0 Handshake [length 00aa]???
+    04 00 00 a6 00 00 01 2c 00 a0 ef 47 23 7e a4 3f
+    f9 c5 aa 00 7d b9 cd 0c e1 ce c1 f2 3b 35 cb ed
+    a6 27 69 1d 55 e0 ee 26 90 0b a2 3a d6 4d e4 63
+    18 9d c3 23 eb 8c c1 b1 4c 6f 09 58 d9 03 69 8b
+    34 02 82 4e d9 97 68 c5 8f 95 fa 21 85 7c b9 5e
+    52 41 4a 39 e8 eb 65 46 0f 7e 7e e4 56 65 fb 16
+    84 1d 98 a4 65 ff a7 5e 2c 1d f0 8b 42 20 14 48
+    2c 43 be 41 de d2 98 e0 e0 ef f1 09 23 bc 34 14
+    1e 68 15 5c 23 9a 00 93 d6 b8 63 99 d5 5f fe 46
+    ce fd 4f 46 a5 39 26 ef f5 7d 09 be 75 b0 1c 2e
+    ee 79 e0 06 95 fa f2 41 c7 91
+>>> TLS 1.0 ChangeCipherSpec [length 0001]
+    01
+>>> TLS 1.0 Handshake [length 0010], Finished
+    14 00 00 0c 12 82 ec 09 83 43 bd 66 f9 1c b1 e4
+hi server
